@@ -30,10 +30,10 @@ How it works
 * Evaluate accuracy and analyze errors
 
 Results
-Gaussian Naive Bayes Accuracy: ~85%
-Multinomial Naive Bayes Accuracy: slightly lower compared to Gaussian
+- Gaussian Naive Bayes Accuracy: ~85%
+- Multinomial Naive Bayes Accuracy: slightly lower compared to Gaussian
 
-Gaussian NB performed better because the dataset contains continuous pixel values.
+- Gaussian NB performed better because the dataset contains continuous pixel values.
 
 Observations
 - Naive Bayes is fast and simple but assumes feature independence
@@ -41,10 +41,10 @@ Observations
 - Performance could be improved using dimensionality reduction (like PCA)
 
 Sample Output
-Display of faces from dataset
-Confusion matrix
-Misclassified face images
+- Display of faces from dataset
+- Confusion matrix
+- Misclassified face images
 
 How to Run
-pip install numpy matplotlib scikit-learn
-python your_file_name.py
+* pip install numpy matplotlib scikit-learn
+* python your_file_name.py
